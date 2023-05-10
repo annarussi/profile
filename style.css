@@ -1,0 +1,95 @@
+body {
+  background-color: #f1dca7;
+  font-family: 'Lato', sans-serif;
+  color:#826856;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+h1, h2 {
+  color: #6f5746;
+  line-height: 20px
+}
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 20px;
+  color: #797d62
+}
+
+/* a {
+  text-decoration: none;
+  color:#826856;
+  font-weight: bold;
+} */
+
+li a {
+  color:#826856
+}
+
+li a:hover {
+  color: #d08c60;
+}
+
+ul {
+  padding: 0
+}
+
+ul li {
+  display:inline;
+  font-size: 25px
+}
+
+.container {
+  margin: 30px auto;
+  width: 700px
+}
+
+.card {
+  margin: 20px 0;
+  padding: 40px;
+  box-shadow: 0 10px 30px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f1dca7;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-brown {
+  background-color: #9c6644;
+  padding: 10px 10px;
+  border-radius: 8px;
+  color:aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-brown:hover {
+  background-color:#d08c60 ;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
